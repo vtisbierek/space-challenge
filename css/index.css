@@ -639,13 +639,14 @@ body {
     }
     
     .title-text{
-        font-size: 8rem;
+        font-size: 6rem;
         margin-bottom: 2rem;
     } 
 
 /*********************************************************DESTINATION PAGE***********************************************************/
     .destination-panel{
         margin-top: 10%;
+        padding: 0 9%;
     }
 
     .destination-heading{
@@ -666,8 +667,8 @@ body {
     }
 
     .carousel-switcher{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     #destination-carousel{
@@ -676,6 +677,10 @@ body {
 
     .destination-title{
         font-size: 5rem;    
+    }
+
+    .destination-right{
+        padding: 0 3.5% 0 3.5%;
     }
 
     .destination-separator{
