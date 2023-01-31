@@ -655,7 +655,7 @@ body {
 
     .destination-left{
         padding: 3% 0 0 0;
-        margin-bottom: 15%;
+        margin: 3% 0 15%;
     }
 
     .destination-img{
@@ -669,6 +669,7 @@ body {
     .carousel-switcher{
         margin-left: 8px;
         margin-right: 8px;
+        font-size: 1.3rem;
     }
 
     #destination-carousel{
