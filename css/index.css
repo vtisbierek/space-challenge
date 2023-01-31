@@ -1,0 +1,812 @@
+/*********************************************BODY SECTION (DESKTOP)*************************************************/
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+
+/*************************************************NAVBAR SECTION*****************************************************/
+
+.navbar{
+    padding: 0 0 0 5rem;
+    margin: 2.5% 0 2.5%;
+    position: relative;
+}
+
+.navbar-brand{
+    display: inline-block;
+ 
+}
+
+.navbar-logo{
+    width:70px;
+}
+
+.navbar-separator{
+    position: relative;
+}
+
+.navbar-hr{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+    margin:0;
+    z-index: 1;
+}
+
+.nav-item{
+    padding: 0 30px 0;
+}
+
+.navbar-nav{
+    background: rgba(255,255,255,0.05);
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    padding: 0 12rem 0 8rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight:100;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.15em;
+    color:#fff;
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid white;
+}
+
+.navlink-active{
+    border-bottom: 3px solid white;
+}
+
+.navlink-number{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 15px 0 0;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../assets/shared/icon-close.svg);
+    width: 2em;
+    height: 2em;
+}
+
+.collapsed .navbar-toggler-icon {
+    background-image: url(../assets/shared/icon-hamburger.svg);
+    width: 2em;
+    height: 2em;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent !important;
+}
+
+/*************************************************HOME SCREEN CONTENT SECTION****************************************************/
+
+.title-panel{
+    margin: 0;
+    margin-top: 10%;
+    padding: 0 12%;
+    position: relative;
+}
+
+.pre-title{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 0.3rem;
+}
+
+.title-text{
+    font-family: 'Bellefair', serif;
+    font-size: 11rem;
+}
+
+.cover-text{
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 1.4rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    padding-right: 28%;
+}
+
+.col-lg-6{
+    position: relative;
+}
+
+.explore-btn{
+    height:16rem;
+    width:16rem;
+    background-color: #fff;
+    border-radius: 100%;
+    font-family: 'Bellefair', serif;
+    font-size: 2rem;
+    color:black;
+    position: absolute;
+    right:10%;
+    top:30%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.explore-btn:hover{
+    box-shadow: 0px 0px 0px 50px #979797;
+    transition: 0.5s;
+}
+
+.explore-text{
+    margin: 0;
+    position:relative;
+    top:104px;
+}
+
+/*************************************************DESTINATION SCREEN CONTENT SECTION****************************************************/
+
+.destination-panel{
+    margin-top: 3%;
+    padding: 0 12%;
+}
+
+.destination-heading{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 0.3rem;    
+}
+
+.destintation-heading-number{
+    color:#474747;
+    font-weight:600;
+    margin-right: 20px;
+}
+
+.destination-content{
+    margin-top: 3%;
+}
+
+.destination-left{
+    padding: 4% 2% 0 6%;
+}
+
+.destination-right{
+    padding: 0 3.5% 0 2%;
+}
+
+.destination-indicators{
+    position: relative;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.15rem;
+    font-size: 1.4rem;
+    justify-content: left;
+}
+
+.carousel-switcher{
+    margin-right: 60px;
+    padding: 0 0 10px;
+    border-bottom: 3px solid transparent;
+}
+
+.destination-indicators .active{
+    border-bottom: 3px solid white;    
+}
+
+.carousel-switcher:hover{
+    border-bottom: 3px solid white;
+}
+
+#destination-carousel{
+    margin-top: 6.5%;
+    margin-bottom: 15%;
+}
+
+.destination-title{
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-size: 7rem;    
+}
+
+.destination-text{
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 1.3rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    margin-bottom: 9%;
+}
+
+.destination-separator{
+    margin-bottom:6%;
+}
+
+.destination-info{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.15rem;  
+}
+
+.destination-number{
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;    
+}
+
+/*****************************************************CREW SCREEN CONTENT SECTION*******************************************************/
+
+.crew-panel{
+    margin-top: 3%;
+    padding: 0 8% 0 12%;    
+}
+
+.crew-left{
+    margin-top: 6%;
+}
+
+#crew-carousel .carousel-indicators{
+    justify-content: left;
+    margin: 0;
+    bottom: -100px;
+}
+
+.carousel-indicators .crew-btn{
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    margin-right:20px;
+    background-color: #474747;
+}
+
+.carousel-indicators .crew-btn.active{
+    background-color: white;
+}
+
+.crew-job{
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif; 
+    font-size: 2.5rem; 
+    color:#979797;
+}
+
+.crew-name{
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-size: 4.2rem;
+    margin-bottom: 4%;
+}
+
+.crew-text{
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    padding-right: 25%;
+}
+
+.crew-right{
+    padding-right: 4%;
+}
+
+.crew-inner{
+    display: contents;
+}
+
+.crew-inner .carousel-item{
+    justify-content: right;
+    display: flex;
+}
+
+/******************************************************TECHNOLOGY SCREEN SECTION********************************************************/
+
+.tech-panel{
+    margin-top: 3%;
+    padding: 0 0 0 12%; 
+}
+
+.tech-content{
+    margin: 3% 0 0;
+    width:100%;
+}
+
+.tech-left{
+    padding-left: 12%;
+    position: relative;
+    margin-bottom: 8%;
+    width:60%;
+}
+
+.terminology-title{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 0.3rem;
+    position: absolute;   
+    top:95px; 
+    z-index: 101;
+}
+
+.tech-title{
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-size: 5rem;
+    margin-top: 130px;
+    margin-bottom: 3%;
+}
+
+.tech-text{
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    padding-right: 20%;
+}
+
+#tech-carousel .carousel-indicators{
+    justify-content: left;
+    top: 85px;
+    left: -190px;
+    flex-direction: column;
+    margin: 0;
+}
+
+.carousel-indicators .tech-btn{
+    border-radius:50%;
+    width:95px;
+    height:95px;
+    background-color: transparent;
+    border: 1px solid white;
+    flex:none;
+    margin-bottom:40px;
+    text-indent: 0;
+    font-family: 'Bellefair', serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.carousel-indicators .tech-btn.active{
+    background-color: white;
+    color:black;
+}
+
+.tech-right{
+    padding: 0;
+    justify-content: right;
+    display:flex;
+    margin-bottom: 8%;
+    width:40%;
+}
+
+.tech-img-1{
+    content:url(../assets/technology/image-launch-vehicle-portrait.jpg);
+}
+
+.tech-img-2{
+    content:url(../assets/technology/image-spaceport-portrait.jpg);
+}
+
+.tech-img-3{
+    content:url(../assets/technology/image-space-capsule-portrait.jpg);
+}
+
+/*********************************************************MEDIA QUERY SECTION***********************************************************/
+/************************************************************TABLET SECTION*************************************************************/
+
+@media (max-width: 1340px){
+    body {
+        text-align: center;
+    }
+
+    .navbar{
+        margin: 0;
+    }
+
+    .navbar-hr{
+        display: none;
+    }
+
+    .navlink-number{
+        display: none;
+    }
+
+    .navbar-nav{
+        padding: 0 4rem 0 4rem;
+    }
+
+    .cover-text{
+        padding: 0 15%;
+    }
+
+    .nav-item{
+        padding: 0 15px 0;
+    }
+
+/*************************************************************HOME PAGE**************************************************************/     
+
+    .title-panel{
+        margin-top: 15%;
+    }
+
+    .col-lg-6{
+        width:100%;
+        position: relative;
+    }
+
+    .explore-btn{
+        position: static;   
+        margin: 25% auto 15%;
+    }
+
+/*********************************************************DESTINATION PAGE***********************************************************/    
+    .destination-panel{
+        margin-top: 10%;
+    }
+
+    .destination-left{
+        padding: 3% 0 0 0;
+        margin-bottom: 15%;
+    }
+
+    .destination-img{
+        width: 50%;
+    }
+
+    .destination-indicators{
+        text-align: center;
+    }
+
+    .carousel-switcher{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #destination-carousel{
+        margin-top: 3%;
+    }
+
+/*************************************************************CREW PAGE*************************************************************/
+
+    .crew-panel{
+        margin-top: 10%;
+        padding: 0 12%; 
+    }
+
+    #crew-carousel .carousel-indicators{
+        justify-content: center;
+        margin: 0;
+        bottom: -50px;
+    }
+
+    .crew-text{
+        padding: 0 10%;
+    }
+
+    .crew-left{
+        margin-bottom: 12%;
+    }
+
+    .crew-right{
+        padding: 0%;
+    }
+
+    .crew-img{
+        max-height: 600px;
+    }
+
+    .crew-inner{
+        display: block;
+    }
+
+    .crew-inner .carousel-item{
+        justify-content: center;
+        display: block;
+}
+
+/*********************************************************TECHNOLOGY PAGE************************************************************/
+
+    .tech-img-1{
+        content:url(../assets/technology/image-launch-vehicle-landscape.jpg);
+    }
+
+    .tech-img-2{
+        content:url(../assets/technology/image-spaceport-landscape.jpg);
+    }
+
+    .tech-img-3{
+        content:url(../assets/technology/image-space-capsule-landscape.jpg);
+    }
+
+    .tech-panel{
+        margin-top: 10%;
+        padding: 0;
+    }
+
+    .terminology-title{
+        font-size: 1.2rem; 
+        left:12%;  
+        top:30px; 
+    }
+
+    .tech-left{
+        padding: 0;
+        margin-bottom: 4%;
+        width:100%;
+    }
+
+    .tech-title{
+        font-size: 4.5rem;
+        margin-top: 250px;
+        margin-bottom: 3%;
+        padding:0 10%;
+    }
+    
+    .tech-text{   
+        font-size: 1.5rem;
+        padding:0 15%;
+    }
+
+    .tech-right{
+        margin-bottom: 10%;
+        width:100%;
+    }
+
+    .tech-img{
+        width:100%;
+    }
+
+    #tech-carousel .carousel-indicators{
+        justify-content: center;
+        top: 100px;
+        left: 0;
+        flex-direction:row;
+    }
+    
+    .carousel-indicators .tech-btn{
+        margin: 0 20px;
+    }
+}
+
+/***********************************************************MOBILE QUERY*************************************************************/
+
+@media (max-width: 768px){
+    body {
+        text-align: center;
+    }
+
+    .navbar{
+        margin: 5% 0 0;
+        padding: 0 2rem 0 2.5rem;
+    }
+
+    .navbar-hr{
+        display: none;
+    }
+
+    .navlink-number{
+        display: none;
+    }
+
+    .navbar-nav{
+        padding: 0;
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        position: absolute;
+        right:0;
+        width: 50vw;
+        flex-direction: column;
+        z-index: 100;
+    }
+
+    .nav-item{
+        padding: 0;
+    }
+
+/*************************************************************HOME PAGE**************************************************************/
+    
+    .cover-text{
+        padding: 0;
+        font-size: 1.5rem;
+    }
+
+    .title-panel{
+        margin-top: 11%;
+    }
+
+    .col-lg-6{
+        width:100%;
+        position: relative;
+    }
+
+    .explore-btn{
+        position: static;   
+        margin: 25% auto 15%;
+    }
+
+    .pre-title{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .title-text{
+        font-size: 8rem;
+        margin-bottom: 2rem;
+    } 
+
+/*********************************************************DESTINATION PAGE***********************************************************/
+    .destination-panel{
+        margin-top: 10%;
+    }
+
+    .destination-heading{
+        font-size: 1.5rem;
+    }    
+
+    .destination-left{
+        padding: 3% 0 0 0;
+        margin-bottom: 15%;
+    }
+
+    .destination-img{
+        width: 50%;
+    }
+
+    .destination-indicators{
+        text-align: center;
+    }
+
+    .carousel-switcher{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #destination-carousel{
+        margin-top: 8%;
+    }
+
+    .destination-title{
+        font-size: 5rem;    
+    }
+
+    .destination-separator{
+        margin-bottom:8%;
+    }
+
+    .destination-final{
+        padding: 0 10%;
+    }
+
+    .destination-number{
+        font-size: 1.3rem;
+    }  
+    
+    .destination-final-column{
+        padding: 0;
+    }
+    
+/*************************************************************CREW PAGE*************************************************************/
+
+    .crew-panel{
+        margin-top: 10%;
+        padding: 0 7%; 
+    }
+
+    #crew-carousel .carousel-indicators{
+        justify-content: center;
+        margin: 0;
+        bottom: -30px;
+    }
+
+    .crew-text{
+        padding: 0 10%;
+    }
+
+    .crew-left{
+        margin-bottom: 15%;
+    }
+
+    .crew-right{
+        padding: 0%;
+    }
+
+    .crew-img{
+        max-height: 450px;
+    }
+
+    .crew-job{ 
+        font-size: 1.75rem; 
+    }
+    
+    .crew-name{
+        font-size: 3rem;
+    }
+    
+    .crew-text{    
+        font-size: 1.4rem;
+    }
+
+    .crew-inner{
+        display: block;
+    }
+    
+    .crew-inner .carousel-item{
+        justify-content: center;
+        display: block;
+    }
+
+/*********************************************************TECHNOLOGY PAGE************************************************************/
+
+    .tech-img-1{
+        content:url(../assets/technology/image-launch-vehicle-landscape.jpg);
+    }
+
+    .tech-img-2{
+        content:url(../assets/technology/image-spaceport-landscape.jpg);
+    }
+
+    .tech-img-3{
+        content:url(../assets/technology/image-space-capsule-landscape.jpg);
+    }
+
+    .tech-panel{
+        margin-top: 10%;
+        padding: 0;
+    }
+
+    .terminology-title{
+        font-size: 1.1rem; 
+        left:15%;  
+        top:30px; 
+    }
+
+    .tech-left{
+        padding: 0;
+        margin-bottom: 4%;
+        width:100%;
+    }
+
+    .tech-title{
+        font-size: 3.5rem;
+        margin-top: 215px;
+        margin-bottom: 3%;
+        padding:0 10%;
+    }
+    
+    .tech-text{   
+        font-size: 1.2rem;
+        padding:0 15%;
+    }
+
+    .tech-right{
+        margin-bottom: 12%;
+        width:100%;
+    }
+
+    .tech-img{
+        width:100%;
+    }
+
+    #tech-carousel .carousel-indicators{
+        justify-content: center;
+        top: 100px;
+        left: 0;
+        flex-direction:row;
+    }
+    
+    .carousel-indicators .tech-btn{
+        margin: 0 20px;
+        width:70px;
+        height:70px;
+    }
+
+}

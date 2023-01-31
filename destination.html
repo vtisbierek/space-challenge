@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&family=Bellefair&display=swap" rel="stylesheet">
+  <title class="page1">VTisbierek | Space Challenge</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="" href="css/index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href=""><img src="assets/shared/logo.svg" alt="logo" class="navbar-logo"></a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#topMenu" aria-controls="topMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid navbar-separator"><hr class="navbar-hr"></div>  
+        <div class="collapse navbar-collapse" id="topMenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link py-5" href="index.html"><span class="navlink-number">00</span>Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link navlink-active py-5" href=""><span class="navlink-number">01</span>Destination</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link py-5" href="crew.html"><span class="navlink-number">02</span>Crew</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link py-5" href="technology.html"><span class="navlink-number">03</span>Technology</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <div class="container-fluid destination-panel">
+        <h1 class="destination-heading"><span class="destintation-heading-number">01</span>Pick your destination</h1>
+        <div class="row destination-content">
+            <div class="col-lg-6 destination-left">
+                <div id="destination-img-carousel" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                    <div data-bs-slide-to="0" class="carousel-item active">
+                        <img class="destination-img" src="assets/destination/image-moon.webp" alt="moon-img">
+                    </div>
+                    <div data-bs-slide-to="1" class="carousel-item">
+                        <img class="destination-img" src="assets/destination/image-mars.webp" alt="mars-img">
+                    </div>
+                    <div data-bs-slide-to="2" class="carousel-item">
+                        <img class="destination-img" src="assets/destination/image-europa.webp" alt="europa-img">
+                    </div>
+                    <div data-bs-slide-to="3" class="carousel-item">
+                        <img class="destination-img" src="assets/destination/image-titan.webp" alt="titan-img">
+                    </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-6 destination-right">
+                <div class="destination-indicators">
+                    <span type="button" data-bs-target="#destination-carousel" data-bs-slide-to="0" class="text carousel-switcher active">Moon</span>
+                    <span type="button" data-bs-target="#destination-carousel" data-bs-slide-to="1" class="text carousel-switcher">Mars</span>
+                    <span type="button" data-bs-target="#destination-carousel" data-bs-slide-to="2" class="text carousel-switcher">Europa</span>
+                    <span type="button" data-bs-target="#destination-carousel" data-bs-slide-to="3" class="text carousel-switcher">Titan</span>
+                </div>
+                <div id="destination-carousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div data-slide-no="0" class="carousel-item active">
+                            <h1 class="destination-title">Moon</h1>
+                            <p class="destination-text">See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                                regain perspective and come back refreshed. While you’re there, take in some history 
+                                by visiting the Luna 2 and Apollo 11 landing sites.
+                            </p>
+                            <hr class="destination-separator">
+                            <div class="row destination-final">
+                                <div class="col destination-final-column">
+                                    <p class="destination-info">Avg. distance</p>
+                                    <h3 class="destination-number">384,400 km</h3>
+                                </div>
+                                <div class="col destination-final-column">
+                                    <p class="destination-info">Est. travel time</p>
+                                    <h3 class="destination-number">3 days</h3>    
+                                </div>
+                            </div>
+                        </div>
+                        <div data-slide-no="1" class="carousel-item">
+                            <h1 class="destination-title">Mars</h1>
+                            <p class="destination-text">Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+                                the tallest planetary mountain in our solar system. It’s two and a half times 
+                                the size of Everest!
+                            </p>
+                            <hr class="destination-separator">
+                            <div class="row destination-final">
+                                <div class="col destination-final-column">
+                                    <p class="destination-info">Avg. distance</p>
+                                    <h3 class="destination-number">225 mil. km</h3>
+                                </div>
+                                <div class="col destination-final-column">
+                                    <p class="destination-info">Est. travel time</p>
+                                    <h3 class="destination-number">9 months</h3>    
+                                </div>
+                            </div>
+                        </div>
+                        <div data-slide-no="2" class="carousel-item">
+                            <h1 class="destination-title">Europa</h1>
+                            <p class="destination-text">The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+                                winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+                                ice skating, curling, hockey, or simple relaxation in your snug 
+                                wintery cabin.
+                            </p>
+                            <hr class="destination-separator">
+                            <div class="row destination-final">
+                                <div class="col destination-final-column">
+                                    <p class="destination-info">Avg. distance</p>
+                                    <h3 class="destination-number">628 mil. km</h3>
+                                </div>
+                                <div class="col destination-final-column">
+                                    <p class="destination-info">Est. travel time</p>
+                                    <h3 class="destination-number">3 years</h3>    
+                                </div>
+                            </div>
+                        </div>
+                        <div data-slide-no="3" class="carousel-item">
+                            <h1 class="destination-title">Titan</h1>
+                            <p class="destination-text">The only moon known to have a dense atmosphere other than Earth, Titan 
+                                is a home away from home (just a few hundred degrees colder!). As a 
+                                bonus, you get striking views of the Rings of Saturn.
+                            </p>
+                            <hr class="destination-separator">
+                            <div class="row destination-final">
+                                <div class="col destination-final-column">
+                                    <p class="destination-info">Avg. distance</p>
+                                    <h3 class="destination-number">1.6 bil. km</h3>
+                                </div>
+                                <div class="col destination-final-column">
+                                    <p class="destination-info">Est. travel time</p>
+                                    <h3 class="destination-number">7 years</h3>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
